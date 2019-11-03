@@ -10,7 +10,7 @@
 .OUTPUTS
   <None>
 .NOTES
-  Version:        1.0
+  Version:        1.0.0
   Author:         <@Josee9988>
   Creation Date:  <11/02/2019>
   Purpose/Change: Initial script development
@@ -93,7 +93,7 @@ function GenerateForm {
             if ($checkBox10.Checked){$listBox1.Items.Add("Removing Get Office") 
                 Get-AppxPackage *officehub* -AllUsers | Remove-AppxPackage
             }
-            if ($checkBox11.Checked){$listBox1.Items.Add("Removing Get Skype") 
+            if ($checkBox11.Checked){$listBox1.Items.Add("Removing Skype") 
                 Get-AppxPackage *skypeapp* -AllUsers | Remove-AppxPackage
             }
             if ($checkBox12.Checked){$listBox1.Items.Add("Removing Get Started") 
@@ -114,16 +114,16 @@ function GenerateForm {
             if ($checkBox17.Checked){$listBox1.Items.Add("Removing News") 
                 Get-AppxPackage *bingnews* -AllUsers | Remove-AppxPackage
             }
-            if ($checkBox18.Checked){$listBox1.Items.Add("Removing Calendar & Mail") 
+            if ($checkBox18.Checked){$listBox1.Items.Add("Removing Calendar and Mail") 
                 Get-AppxPackage *communicationsapps* -AllUsers | Remove-AppxPackage
             }
-            if ($checkBox19.Checked){$listBox1.Items.Add("Removing Alarms & Clock") 
+            if ($checkBox19.Checked){$listBox1.Items.Add("Removing Alarms and Clock") 
                 Get-AppxPackage *alarms* -AllUsers | Remove-AppxPackage
             }
             if ($checkBox20.Checked){$listBox1.Items.Add("Removing Weather") 
             Get-AppxPackage *bingweather* -AllUsers | Remove-AppxPackage
             }
-            if ($checkBox21.Checked){$listBox1.Items.Add("Removing Films & TV") 
+            if ($checkBox21.Checked){$listBox1.Items.Add("Removing Films and TV") 
             Get-AppxPackage *zunevideo* -AllUsers | Remove-AppxPackage
             }
             if ($checkBox22.Checked){$listBox1.Items.Add("Removing Groove Music") 
@@ -276,7 +276,7 @@ function GenerateForm {
     $System_Drawing_Size.Height = 24
     $checkBox21.Size = $System_Drawing_Size
     $checkBox21.TabIndex = 2
-    $checkBox21.Text = "Films & Tv"
+    $checkBox21.Text = "Films and Tv"
     $System_Drawing_Point = New-Object System.Drawing.Point
     $System_Drawing_Point.X = 27
     $System_Drawing_Point.Y = 602
@@ -306,7 +306,7 @@ function GenerateForm {
     $System_Drawing_Size.Height = 24
     $checkBox19.Size = $System_Drawing_Size
     $checkBox19.TabIndex = 2
-    $checkBox19.Text = "Alarms & Clock"
+    $checkBox19.Text = "Alarms and Clock"
     $System_Drawing_Point = New-Object System.Drawing.Point
     $System_Drawing_Point.X = 27
     $System_Drawing_Point.Y = 540
@@ -321,7 +321,7 @@ function GenerateForm {
     $System_Drawing_Size.Height = 24
     $checkBox18.Size = $System_Drawing_Size
     $checkBox18.TabIndex = 2
-    $checkBox18.Text = "Calendar & Mail"
+    $checkBox18.Text = "Calendar and Mail"
     $System_Drawing_Point = New-Object System.Drawing.Point
     $System_Drawing_Point.X = 27
     $System_Drawing_Point.Y = 509
@@ -426,7 +426,7 @@ function GenerateForm {
     $System_Drawing_Size.Height = 24
     $checkBox11.Size = $System_Drawing_Size
     $checkBox11.TabIndex = 2
-    $checkBox11.Text = "Get Office"
+    $checkBox11.Text = "Skype"
     $System_Drawing_Point = New-Object System.Drawing.Point
     $System_Drawing_Point.X = 27
     $System_Drawing_Point.Y = 292

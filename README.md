@@ -7,7 +7,7 @@ We currently support up to **24** programs.
 
 ## **Download** 📥📩
 
-- Direct **[download 1.0.0]()** of the script.
+- Direct **[download 1.0.0](https://github.com/Josee9988/Remove-Not-Uninstallable-W10/releases/download/1.0.0/removeUninstallable.ps1)** of the script.
 - All the **[releases](https://github.com/Josee9988/Remove-Not-Uninstallable-W10/releases)**.
 
 ---

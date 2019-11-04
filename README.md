@@ -7,7 +7,7 @@ We currently support up to **24** programs.
 
 ## **Download** 📥📩
 
-- Direct **[download 1.0.0](https://github.com/Josee9988/Remove-Not-Uninstallable-W10/releases/download/1.0.0/removeUninstallable.ps1)** of the script.
+- Direct **[download 2.0.0](https://github.com/Josee9988/Remove-Not-Uninstallable-W10/releases/download/2.0.0/removeUninstallable.ps1)** of the script.
 - All the **[releases](https://github.com/Josee9988/Remove-Not-Uninstallable-W10/releases)**.
 
 ---
@@ -22,7 +22,7 @@ Download the script, then right click it and '**Run with PowerShell**'.
 
 - Select and uninstall **useless software**, then click Uninstall!
 
-<img src="https://i.imgur.com/yZfDi8I.png" alt="example" title="example" style="border-radius:15px; box-shadow: 6px 6px  #282829; max-height: 750px; max-width:750px;margin-left: auto; margin-right:auto;display: block;margin-left: auto;margin-right:auto;width:75%;"/>
+<img src="https://i.imgur.com/v1Mx6HR.png" alt="example" title="example" style="border-radius:15px; box-shadow: 6px 6px  #282829; max-height: 750px; max-width:750px;margin-left: auto; margin-right:auto;display: block;margin-left: auto;margin-right:auto;width:75%;"/>
 
 ---
 
@@ -33,7 +33,6 @@ Download the script, then right click it and '**Run with PowerShell**'.
 - **Xbox Game Bar**
 - **Get Help**
 - **Messaging**
-- **People**
 - **Maps**
 - **3D Builder**
 - **Get Office**
@@ -44,14 +43,15 @@ Download the script, then right click it and '**Run with PowerShell**'.
 - **Sports**
 - **Money**
 - **News**
-- **Calendar and Mail**
-- **Alarms and Clock**
+- **Calendar and Mail**.
 - **Weather**
-- **Films and TV**
 - **Groove Music**
-- **Voice Recorder**
 - **Camera**
+- **Alarms and Clock**
+- **Films and TV**
 - **Calculator**
+- **Voice Recorder**
+- **Photos**
 
 ---
 

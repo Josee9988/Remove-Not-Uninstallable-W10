@@ -1,7 +1,9 @@
 # **Remove Software Not Uninstallable Windows 10**
 
-A Powershell script that lets you **remove useless** and not uninstallable programs in Windows 10 to **gain** disk **space** and **performance**.
+A Powershell script that lets you **remove useless** and **not uninstallable** programs in Windows 10 to **gain** disk **space** and **performance**.
 We currently support up to **24** programs.
+
+Did you find any issue or enhancement? Feel free to [make us know](https://github.com/Josee9988/Remove-Not-Uninstallable-W10/issues)
 
 ---
 
@@ -58,6 +60,15 @@ Download the script, then right click it and '**Run with PowerShell**'.
 ## **What if a program can not be uninstalled?:** 🛑🗑
 
 - It will simply display a red line in the PowerShell Window and Windows will not uninstall such program. So you won't need to worry about it.
+
+---
+
+### Did you enjoyed the script? Help us raise these numbers 🥰🎉
+
+[![Github followers](https://img.shields.io/github/followers/Josee9988?style=social)](#languages-primarily-tested)
+[![Github stars](https://img.shields.io/github/stars/Josee9988/Remove-Not-Uninstallable-W10.svg?style=social)](#languages-primarily-tested)
+[![Github watchers](https://img.shields.io/github/watchers/Josee9988/Remove-Not-Uninstallable-W10.svg?style=social)](#languages-primarily-tested)
+[![Github forks](https://img.shields.io/github/forks/Josee9988/Remove-Not-Uninstallable-W10?style=social)](#languages-primarily-tested)
 
 ---
 

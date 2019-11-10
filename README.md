@@ -9,16 +9,10 @@ Did you find any issue or enhancement? Feel free to [make us know](https://githu
 
 ## **Download** 📥📩
 
-- Direct **[download 2.0.0](https://github.com/Josee9988/Remove-Not-Uninstallable-W10/releases/download/2.0.0/removeUninstallable.ps1)** of the script.
+- Direct **[download 2.1.0](https://github.com/Josee9988/Remove-Not-Uninstallable-W10/releases/download/2.1.0/removeUninstallable.ps1)** of the script.
 - All the **[releases](https://github.com/Josee9988/Remove-Not-Uninstallable-W10/releases)**.
 
 ---
-
-## **How to run the script** 🔩⚙
-
-Download the script, then right click it and '**Run with PowerShell**'.
-
-<img src="https://i.imgur.com/xh0u3ry.png" alt="run" title="run" style="border-radius:15px; box-shadow: 6px 6px  #282829; max-height: 750px; max-width:750px;margin-left: auto; margin-right:auto;display: block;margin-left: auto;margin-right:auto;width:75%;"/>
 
 ## **Example of use** 📸 😁
 
@@ -28,11 +22,53 @@ Download the script, then right click it and '**Run with PowerShell**'.
 
 ---
 
+## **How to run the script** 🔩⚙
+
+### Download the script, then right click it and '**Run with PowerShell**'
+
+<img src="https://i.imgur.com/xh0u3ry.png" alt="run" title="run" style="border-radius:15px; box-shadow: 6px 6px  #282829; max-height: 750px; max-width:750px;margin-left: auto; margin-right:auto;display: block;margin-left: auto;margin-right:auto;width:75%;"/>
+
+---
+
+### If the '**Run with PowerShell**' option **does not appear**
+
+- Right click in the script, then '**Open with**' and '**Choose another app**'.
+
+<img src="https://i.imgur.com/YYXvDVZ.png" alt="openWith" title="openWith" style="border-radius:15px; box-shadow: 6px 6px  #282829; max-height: 750px; max-width:750px;margin-left: auto; margin-right:auto;display: block;margin-left: auto;margin-right:auto;width:75%;"/>
+
+- Choose '**Notepad**' and click '**OK**'. Then try again.
+
+<img src="https://i.imgur.com/EUdk2V5.png" alt="openWith" title="openWith" style="border-radius:15px; box-shadow: 6px 6px  #282829; max-height: 750px; max-width:750px;margin-left: auto; margin-right:auto;display: block;margin-left: auto;margin-right:auto;width:75%;"/>
+
+---
+
+### If this error appears
+
+<img src="https://i.imgur.com/9tApPiN.png" alt="errorRestricted" title="errorRestricted" style="border-radius:15px; box-shadow: 6px 6px  #282829; max-height: 750px; max-width:750px;margin-left: auto; margin-right:auto;display: block;margin-left: auto;margin-right:auto;width:75%;"/>
+
+- Open PowerShell as administrator
+
+<img src="https://i.imgur.com/E60wJtw.png" alt="openPS" title="openPS" style="border-radius:15px; box-shadow: 6px 6px  #282829; max-height: 750px; max-width:750px;margin-left: auto; margin-right:auto;display: block;margin-left: auto;margin-right:auto;width:75%;"/>
+
+- Allow unrestricted PowerShell sources with:
+
+```powershell
+Set-ExecutionPolicy unrestricted
+```
+
+- And type '**y**' or '**a**'
+
+<img src="https://i.imgur.com/ojDZYsM.png" alt="allowUnrestricted" title="allowUnrestricted" style="border-radius:15px; box-shadow: 6px 6px  #282829; max-height: 750px; max-width:750px;margin-left: auto; margin-right:auto;display: block;margin-left: auto;margin-right:auto;width:75%;"/>
+
+Then try to run again the script :)
+
+---
+
 ## **Software available** (24) 🧪🔥
 
 - **Your Phone**
 - **Xbox App**
-- **Xbox Game Bar**
+- **Xbox Game Bar** (might not work)
 - **Get Help**
 - **Messaging**
 - **Maps**

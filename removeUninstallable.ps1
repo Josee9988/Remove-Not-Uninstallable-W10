@@ -11,10 +11,10 @@
 .OUTPUTS
   <None>
 .NOTES
-  Version:        2.0.0
+  Version:        2.1.0
   Author:         <@Josee9988>
   Creation Date:  <11/02/2019>
-  Purpose/Change: Remove people due to mistake and rework work UI.
+  Purpose/Change: Now it shows the new free space in MB.
   Github Repo:    https://github.com/Josee9988/Remove-Not-Uninstallable-W10
 #>
 
@@ -62,13 +62,14 @@ function GenerateForm {
         $a = new-object -comobject wscript.shell
         $intAnswer = $a.popup("Do you really want to uninstall these programs?",0,"Delete software",4)
         If ($intAnswer -eq 6) {
+            $freeSpaceBefore = Get-PSDrive C | Select-Object Free
             if ($checkBox1.Checked){$listBox1.Items.Add("Removing 'Your Phone'")
                 Get-AppxPackage *Microsoft.YourPhone* -AllUsers | Remove-AppxPackage
             }
             if ($checkBox2.Checked){$listBox1.Items.Add( "Removing Xbox App")
                 Get-AppxPackage *Microsoft.XboxApp* -AllUsers | Remove-AppxPackage
             }
-            if ($checkBox3.Checked){$listBox1.Items.Add("Removing Xbox Game Bar") 
+            if ($checkBox3.Checked){$listBox1.Items.Add("Removing Xbox Game Bar (might not work)") 
                 Get-AppxPackage *Microsoft.XboxGameBar* -AllUsers | Remove-AppxPackage
             }
             if ($checkBox4.Checked){$listBox1.Items.Add("Removing Get Help") 
@@ -134,7 +135,15 @@ function GenerateForm {
             if ($checkBox24.Checked){$listBox1.Items.Add("Removing Photos") 
             Get-AppxPackage *photos* -AllUsers | Remove-AppxPackage
             }
-            $a.popup("Software successfully removed, enjoy your new space",0,"Successful")
+            $freeSpaceAfter = Get-PSDrive C | Select-Object Free
+            $result = [math]::Round((($freeSpaceBefore.free-$freeSpaceAfter.free)/1MB),2)
+            # If you were installing something and the free space went up, so you 'freed up -x MB'
+            # it will simply not display the freed up part of the message.
+            if ($result -le 0){ 
+            $a.popup("Software successfully removed, enjoy your new space.",0,"Successful")
+            }else{
+            $a.popup("Software successfully removed, enjoy your new space. You freed up: "+$result+" MB",0,"Successful")
+            }
         } else {
           $a.popup("Operation aborted",0,"Aborted")
         }
